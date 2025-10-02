@@ -1,0 +1,72 @@
+<!DOCTYPE>
+<html>
+    <head>
+	    <title>Puzzle</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Isabel Castañeda">
+		<meta name="viewport" content="width device-width, initial-scale 1.0">
+	</head>
+	<body>
+	    <style>
+		
+		    section.container{
+			display:grid;
+			gap:5px;
+			grid-template-areas:
+			    'hd hd hd hd hd'
+				'mn mn mn mn mn'
+				'.  ft ft ft . '
+				;
+			}
+			
+			div.header {
+			grid-area:hd;
+			font-family: Arial, sans-serif;
+			}
+			
+		    section.puzzle{
+			display:flex;
+			flex-direction:row;
+			flex-wrap:wrap;
+			width:600;
+			grid-area:mn;
+			}
+			
+			.hidden {
+			visibility:hidden;
+			}
+			
+			p-footer {
+			grid-area:ft;
+			}
+
+		</style>
+		
+		<section class="container">
+		
+		    <div class="header">
+		        <h1>Puzzle</h1>
+		        <p>
+				    <b>By:</b> Isabel Castañeda</br>
+				    <b>Puzzle topic:</b> Fish
+				</p>
+		    </div>
+		
+		    <section class="puzzle">
+                <div><img src="images/4.4_puzzle3/puzzle3_D.jpg" alt="part fjf"></div>
+		        <div><img src="images/4.4_puzzle3/puzzle3_A.jpg" alt="part fjf"></div>
+		        <div><img src="images/4.4_puzzle3/puzzle3_G.jpg" alt="part fjf"></div>
+		        <div><img src="images/4.4_puzzle3/puzzle3_J.jpg" alt="part fjf"></div>
+		        <div><img src="images/4.4_puzzle3/puzzle3_B.jpg" alt="part fjf"></div>
+		        <div><img src="images/4.4_puzzle3/puzzle3_C.jpg" alt="part fjf"></div>
+		        <div><img src="images/4.4_puzzle3/puzzle3_F.jpg" alt="part fjf"></div>
+		        <div><img src="images/4.4_puzzle3/puzzle3_I.jpg" alt="part fjf"></div>
+	          	<div><img src="images/4.4_puzzle3/puzzle3_E.jpg" alt="part fjf"></div>
+		        <div class="hidden"><img src="images/4.4_puzzle3/puzzle3_H.jpg" alt="part fjf"></div>
+			
+		    </section>
+		
+		<p style="font-family: Arial, sans-serif"><b>Release date:</b> October 2<sup>st</sup>, 2025</p>
+		</section>
+	</body>
+</html>
