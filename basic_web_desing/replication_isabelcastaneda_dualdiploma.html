@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html>
+    <head>
+	    <title>Image Replication</title>
+	</head>
+	<body>
+	<style>                                    
+	.inverse{
+	-webkit-filter: invert(100%) opacity(80%);
+	filter: invert(100%) opacity(80%);
+	border-radius: 90px 0px;
+    }
+	.hue{
+    -webkit-filter: hue-rotate(90deg);
+    filter: hue-rotate(90deg);
+	}
+    .graysanatomy{
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+	border: 48px solid #000;
+    border-image: url(images/5.4_images-assignment/tic-tac-toe.png) 48 round;
+    }
+	.sepia{
+	-webkit-filter: sepia(50%);
+	filter: sepia(50%);
+	border-radius: 50%;
+	border: 1px, solid, black
+	}
+	.gradient{
+	background-image: linear-gradient(130deg, #6179FF, white);
+	box-shadow:0px 10px 5px #949494
+	}
+	.div {  
+			    background-image: url("theater_stage.jpg");  
+				height: 200px;   
+				position: relative;  
+                margin: 20px;				
+			}  
+			
+			.stage { 
+			    filter: blur(2px); 
+			}   
+			
+			.stage2 {   
+			    position: relative;  
+				bottom: 200px;  
+				font-size: 55px; 
+                color: white; 
+				padding-left: 90px; 
+				font-family: Arial, sans-serif;
+				text-shadow: 5px 5px 3px #000
+			}
+	</style>
+	    <img class="inverse" src="images/5.4_images-assignment/butterfly.jpg" alt="Butterfly" height="250px"/>
+	    <img class="hue" src="images/5.4_images-assignment/dinosaur.png" alt="Dinosaur" height="250px"/>
+		<img class="graysanatomy" src="images/5.4_images-assignment/football_field.jpg" alt="Football field" height="250px"/>
+		<img class="sepia" src="images/5.4_images-assignment/penguins.jpg" alt="Penguins" height="250px"/>
+		<img class="gradient" src="images/5.4_images-assignment/seagull.png" alt="Seagull" height="250px" />
+	    <div> 
+		    <img src="images/5.4_images-assignment/theater_stage.jpg" class="stage"> <div class="stage2"> Presenting</div> 
+		</div>
+
+	</body>
+</html>
