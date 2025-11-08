@@ -1,0 +1,32 @@
+.div{
+	background-color:tan;
+	height:100px;
+	font-family:Arial, sans-serif;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+}
+.p{
+	position:relative;
+	top:30px;
+	font-size:30px
+}
+.normi{
+	font-family:Arial, sans-serif;
+	font-size:10px
+}
+.com{
+	color:white;
+	position:relative;
+	font-family:Arial, sans-serif;
+	font-weight:bold;
+	bottom:10px
+}
+.indice{
+	border-bottom:5px, solid;
+	border-bottom-color:peru;
+	border-left:5px, solid;
+	border-left-color:peru;
+	border-right:5px, solid;
+	border-right-color:peru;
+}
