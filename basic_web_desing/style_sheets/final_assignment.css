@@ -42,6 +42,33 @@
 	font-family:Arial, sans-serif;
 	font-size:35px;
 }
-tr, td{
+.cosa{
+	font-family:Arial, sans-serif; 
+	font-size:30px; 
+	position:relative; 
+	left:380px;
 	border:2px solid
+}
+.titulos{
+	font-family:Arial, sans-serif; 
+	font-size:30px; 
+	color:peru; 
+	text-align:center
+}
+.todo{
+	background-color:tan
+}
+.produ{
+	color:maroon;
+	font-size:30px;
+	font-family:Arial, sans-serif
+}
+.k{
+	font-size:40px;
+	color:peru;
+	font-family:Arial, sans-serif
+}
+.j{
+	position:relative;
+	margin-left:50px;
 }
