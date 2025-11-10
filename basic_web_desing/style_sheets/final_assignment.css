@@ -34,7 +34,14 @@
 }
 #carro{
 }
+#cam{
+}
+#lla{
+}
 .pro{
 	font-family:Arial, sans-serif;
 	font-size:35px;
+}
+tr, td{
+	border:2px solid
 }
