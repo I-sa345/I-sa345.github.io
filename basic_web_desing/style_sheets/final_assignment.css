@@ -72,3 +72,20 @@
 	position:relative;
 	margin-left:50px;
 }
+.imn{
+	float:right;
+	border:5px solid;
+	margin-bottom:70px;
+	position:relative;
+}
+.feet{
+	font-family:Arial, sans-serif; 
+	font-size:15px; 
+	color:peru; 
+	text-align:center
+}
+.video{
+	position:relative;
+	top:40px;
+	left:389px
+}
